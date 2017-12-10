@@ -32,4 +32,6 @@ Det data som bliver gemt i databaserne har en stor værdi for hackere, som ved a
 - https://www.theregister.co.uk/2017/01/11/mongodb_ransomware_followup/
 - https://www.mongodb.com/blog/post/how-to-avoid-a-malicious-attack-that-ransoms-your-data#suggested-steps
 - https://www.infoworld.com/article/3164504/security/the-essential-guide-to-mongodb-security.html
+- https://docs.mongodb.com/manual/administration/security-checklist/
+- https://www.mongodb.com/blog/post/update-how-to-avoid-a-malicious-attack-that-ransoms-your-data
 
