@@ -22,7 +22,7 @@ Det data som bliver gemt i databaserne har en stor værdi for hackere, som ved a
 
 ### Hvorfor er MongoDB usikkert?
 
-I januar 2017 kom antallet af Mongo-databaser ramt af ransomware op på 32.000. Disse typer angreb går i al sin enkelthed ud på, at hackere får adgang til en mongo-database, kopiere al data i databasen og derefter sletter al data. Herefter får ejeren af databasen en besked om, at de imod betaling (ofte i Bitcoins) kan få data tilbage igen. 
+I januar 2017 kom antallet af Mongo-databaser ramt af ransomware op på 32.000. Disse typer angreb går i al sin enkelthed ud på, at hackere får adgang til en mongo-database, kopierer al data i databasen og derefter sletter al data. Herefter får ejeren af databasen en besked om, at de imod betaling (ofte i Bitcoins) kan få data tilbage igen. 
 MongoDB er i flere tilfælde blevet kritiseret for dets manglende sikkerhed og de nye tal taler for sig selv.
 
 På trods af kritikken fra flere sikkerhedseksperter er MongoDB faktisk en sikker database. Men man skal dog vide noget om MongoDB’s nødvendige konfigurering for at opnå en tilfredsstillende sikkerhed. De primære syndere hos MongoDB er:
