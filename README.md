@@ -41,7 +41,7 @@ Dette resulterer i, at mindre erfarne udviklere ikke tager højde for den mangle
 Denne problemstilling med manglende konfigurering på en MongoDB-database har vi selv erfaring med. Som en del af vores fag, Large System Development, udviklede vi et stort system, der gjorde brug af en MongoDB-database. 
 Vi havde dog ikke taget højde for den manglende sikkerhedskonfigurering på MongoDB. I virkeligheden var vi faktisk slet ikke klar over, at det var nødvendigt at konfigurere MongoDB.
 
-Der gik ikke længe før vi selv blev angrebet af ransomware og det lykkedes faktisk hackerne at få adgang til databasen og derefter slet al vores data:
+Der gik ikke længe før vi selv blev angrebet af ransomware og det lykkedes faktisk hackerne at få adgang til databasen og derefter slette al vores data:
 
 ![alt text](http://212.47.237.59:6001/test/blog/Screen%20Shot%202017-12-10%20at%2012.59.55.png)
 
