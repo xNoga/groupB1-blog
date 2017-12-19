@@ -58,7 +58,7 @@ Angrebet vi blev udsat for er på mange måder vores egen skyld, da det relativt
 Det havde været en kæmpe fordel ikke at bruge MongoDB’s default port, da det havde gjort arbejdet for den bot der angreb os væsentligt sværere. Yderligere havde vi ikke sat authentication op på databasen ligesom vi heller ikke havde taget højde for, at vores firewall ikke blokerede ukendt udefrakommende trafik på vores MongoDB-port.
 
 Vi har siden angrebet igen fået kontrol over databasen, selvom vi har mistet en masse testdata, som vi aldrig får igen. Havde det været et virkelig scenarie, hvor vi havde en masse specifik brugerdata liggende i databasen, havde det haft store konsekvenser. 
-Vi har siden hen sat en firewall op, der blokerer på port 27017 således at vi ikke længere er modtagelige over for samme type angreb. Yderligere skal vi nu tage højde for authentication på databasen, og overveje om vi ikke skal skifte port. 
+Vi har siden hen sat en [firewall](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-14-04) op, der blokerer på port 27017 således at vi ikke længere er modtagelige over for samme type angreb. Yderligere skal vi nu tage højde for authentication på databasen, og overveje om vi ikke skal skifte port. 
 Der findes i øvrigt også et hav af andre konfigureringer som man bør tage et kig på, hvis man vil sikre sin database mod flest mulige angreb.
 
 ![alt text](http://212.47.237.59:6001/test/blog/Screen%20Shot%202017-12-10%20at%2012.55.37.png)
