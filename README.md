@@ -35,6 +35,7 @@ På trods af kritikken fra flere sikkerhedseksperter er MongoDB faktisk en sikke
 Der findes også flere specifikke områder man skal være opmærksom på, men det kommer meget an på den specifikke applikation. 
 Det kan i den forbindelse diskuteres om hvorvidt MongoDB kan kategoriseres som usikker. Det kommer an på om man mener, at en open-source database som MongoDB bør komme med konfigureret sikkerhed out of the box. MongoDB har allerede taget højde for stort set alle aspekter af sikkerhed når det kommer til NoSQL-databaser, men det kræver at man som udvikler ved, hvad man installerer og hvordan man bruger det og sætter det op. 
 Dette resulterer i, at mindre erfarne udviklere ikke tager højde for den manglende konfiguration, og det har derfor ofte konsekvenser. 
+Vælger man derimod at betale for MongoDB's Enterprise version er der en del sikkerhed sat op på forhånd. Man kunne derfor spekulere på, om det ikke bare er en forretningsmodel, at gratis-versionen af MongoDB ikke har sikkerhed sat op på forhånd. 
 
 ### Hvad er konsekvensen på den manglende konfigurering?
 
